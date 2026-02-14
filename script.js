@@ -32,7 +32,7 @@ typeWriter();
 
 
 // Countdown (SET YOUR MINI DATE TIME HERE)
-const date = new Date("2026-02-15T15:00:00").getTime();
+const date = new Date("2026-02-15T10:00:00").getTime();
 
 const countdown = setInterval(function () {
     const now = new Date().getTime();
