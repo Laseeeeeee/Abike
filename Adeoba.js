@@ -3,7 +3,7 @@ function showLove() {
 
     // Wait 2 seconds (2000 ms) then redirect to memories.html
     setTimeout(function() {
-        window.location.href = "val.html";
+        window.location.href = "Val.html";
     }, 2000);
 }
 
