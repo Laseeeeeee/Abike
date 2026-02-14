@@ -51,19 +51,6 @@ body {
     color: #ff4e88;
 }
 
-.music-btn {
-    padding: 10px 20px;
-    border: none;
-    background: #e50914;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.music-btn:hover {
-    background: #ff1f1f;
-}
-
 /* Floating Hearts */
 .heart {
     position: fixed;

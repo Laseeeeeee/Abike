@@ -67,9 +67,3 @@ function createHeart() {
 }
 
 setInterval(createHeart, 300);
-
-
-// Music Play Fix (for browsers that block autoplay)
-function playMusic() {
-    document.getElementById("bg-music").play();
-}
