@@ -1,5 +1,10 @@
 function showLove() {
     document.getElementById("response").style.display = "block";
+
+    // Wait 2 seconds (2000 ms) then redirect to memories.html
+    setTimeout(function() {
+        window.location.href = "val.html";
+    }, 2000);
 }
 
 function moveButton() {

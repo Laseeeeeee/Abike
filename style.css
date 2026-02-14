@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.4)),
+                url('https://images.unsplash.com/photo-1518199266791-5375a83190b7') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.title {
+    font-size: 3rem;
+    color: #e50914;
+    margin-bottom: 20px;
+}
+
+.message-box {
+    font-size: 1.2rem;
+    min-height: 150px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.countdown {
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ff4e88;
+}
+
+.music-btn {
+    padding: 10px 20px;
+    border: none;
+    background: #e50914;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.music-btn:hover {
+    background: #ff1f1f;
+}
+
+/* Floating Hearts */
+.heart {
+    position: fixed;
+    bottom: -20px;
+    font-size: 20px;
+    animation: floatUp 5s linear infinite;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
